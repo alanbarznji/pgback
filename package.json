@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "nodemon express.js",
     "start": "NODE_ENV=production & nodemon express.js",
-    "int-test": "mocha --require babel-core/register --recursive test"
+    "int-test": "mocha --require babel-core/register --recursive test",
+    "vercel-build":"hehehehe"
   },
   "keywords": [],
   "author": "",
